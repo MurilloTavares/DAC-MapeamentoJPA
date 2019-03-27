@@ -1,6 +1,5 @@
 package br.edu.ifpb.dao;
 
-import br.edu.ifpb.domain.Transporte;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 

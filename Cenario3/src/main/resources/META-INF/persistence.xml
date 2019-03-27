@@ -6,7 +6,7 @@
     <class>br.edu.ifpb.domain.Funcionario</class>
     <class>br.edu.ifpb.domain.Oficina</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://hostbanco:5432/cenario3"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://hostbanco:5432/database"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
       <property name="javax.persistence.jdbc.password" value="1234"/>
