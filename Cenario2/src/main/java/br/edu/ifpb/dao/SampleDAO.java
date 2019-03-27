@@ -1,5 +1,6 @@
 package br.edu.ifpb.dao;
 
+import br.edu.ifpb.domain.Transporte;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
@@ -13,8 +14,9 @@ public class SampleDAO {
                 .createEntityManager();
     }
     
-    public void init() {
+    public void persist(Object t) {
         em.getTransaction().begin();
+        em.persist(t);
         em.getTransaction().commit();
     }
     
