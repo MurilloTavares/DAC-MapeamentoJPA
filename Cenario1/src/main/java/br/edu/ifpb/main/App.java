@@ -8,7 +8,6 @@ public class App {
         
         SampleDAO dao = new SampleDAO();
         dao.init();
-        System.out.println("ASDASDED");
         
     }
     
